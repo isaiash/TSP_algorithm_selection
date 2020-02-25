@@ -44,7 +44,8 @@ public:
 	void define();						// 初始化
 	void doIt();						// GA主程序
 	void init();						// GA初始化
-	bool terminationCondition();		// 退出条件          
+	bool terminationCondition();		// 退出条件 
+	bool terminationConditionByTime();  
 	void setAverageBest();				// 计算种群平均TSP长度与种群最优TSP长度        
 
 	void initPop();						// 初始化种群

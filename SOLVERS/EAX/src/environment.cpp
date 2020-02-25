@@ -53,19 +53,19 @@ void TEnvironment::define(){
 
 void TEnvironment::doIt(){
 	this->fTimeStart = clock();
-	printf( "init pop...\n");
 	this->initPop();
 	this->fTimeInit = clock();
-	printf( "init...\n");
 	this->init();
-	printf( "getEdgeFreq...\n");
 	this->getEdgeFreq();
-	printf( "while...\n");
 	while( 1 ){
 		this->setAverageBest();
 		//printf( "%d\n", global_best );
 		//printf( "%d:\t%d\t%lf\n", fCurNumOfGen, fBestValue, fAverageValue );
-		if( this->terminationCondition() ) break;
+		//if( this->terminationConditionByTime() ) break;
+		if((clock() - best_time)/ CLOCKS_PER_SEC > 600.0){
+			printf( "%llu %Lf\n", global_best, (long double)(clock()-time_start) / CLOCKS_PER_SEC );
+			exit(0);
+		}
 
 		this->selectForMating();
 		for( int s =0; s < Npop; ++s ) this->generateKids( s );     
@@ -73,6 +73,9 @@ void TEnvironment::doIt(){
 		++fCurNumOfGen;
 	}
 	this->fTimeEnd = clock();   
+}
+
+bool TEnvironment::terminationConditionByTime(){
 }
  
 void TEnvironment::init(){
@@ -124,9 +127,6 @@ void TEnvironment::setAverageBest(){
 				best_time = clock();
 				//std::cout << global_best << (clock()-time_start) / CLOCKS_PER_SEC << "\n";
 				printf( "%llu %Lf\n", global_best, (long double)(clock()-time_start) / CLOCKS_PER_SEC );
-			} else if((clock() - best_time)/ CLOCKS_PER_SEC > 300){
-				printf( "%llu %Lf\n", global_best, (long double)(clock()-time_start) / CLOCKS_PER_SEC );
-				exit(0);
 			}
 		}
 	}
