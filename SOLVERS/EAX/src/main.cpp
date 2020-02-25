@@ -15,17 +15,19 @@
 using namespace std;
 
 int main( int argc, char* argv[] ){
+	
 	InitURandom(); 
 	int maxNumOfTrial;
-
+	printf( "env...\n");
 	TEnvironment* gEnv = new TEnvironment();
-	gEnv->fFileNameTSP=(char*)malloc(100);	
+	gEnv->fFileNameTSP=(char*)malloc(200);	
 	gEnv->fFileNameTSP=argv[1];
 	maxNumOfTrial=10000;
 	gEnv->Npop=1000;
 	gEnv->Nch=100;
+	printf( "define...\n");
 	gEnv->define();
-	
+	printf( "doIt...\n");
 	for( int n = 0; n < maxNumOfTrial; ++n ){ 
 		gEnv->doIt(); 
 		

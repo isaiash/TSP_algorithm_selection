@@ -53,11 +53,14 @@ void TEnvironment::define(){
 
 void TEnvironment::doIt(){
 	this->fTimeStart = clock();
-	this->initPop();				// 初始化种群
-
-	this->fTimeInit = clock();    
+	printf( "init pop...\n");
+	this->initPop();
+	this->fTimeInit = clock();
+	printf( "init...\n");
 	this->init();
+	printf( "getEdgeFreq...\n");
 	this->getEdgeFreq();
+	printf( "while...\n");
 	while( 1 ){
 		this->setAverageBest();
 		//printf( "%d\n", global_best );
@@ -77,9 +80,9 @@ void TEnvironment::init(){
 	fCurNumOfGen = 0;
 	fStagBest = 0;
 	fMaxStagBest = 0;
-	fStage = 1;				// 阶段1
-	fFlagC[ 0 ] = 4;		// 维持种群多样性	1:Greedy, 2:---, 3:Distance, 4:Entropy
-	fFlagC[ 1 ] = 1;		// Eset类型			1:Single-AB, 2:Block2
+	fStage = 1;
+	fFlagC[ 0 ] = 4; // 1:Greedy, 2:---, 3:Distance, 4:Entropy
+	fFlagC[ 1 ] = 1; //1:Single-AB, 2:Block2
 } 
 
 bool TEnvironment::terminationCondition(){
@@ -107,7 +110,7 @@ bool TEnvironment::terminationCondition(){
 }
 
 void TEnvironment::setAverageBest(){
-	int stockBest = tBest.fEvaluationValue;
+	unsigned long long stockBest = tBest.fEvaluationValue;
 	fAverageValue = 0.0;
 	fBestIndex = 0;
 	fBestValue = tCurPop[0].fEvaluationValue;
@@ -120,9 +123,9 @@ void TEnvironment::setAverageBest(){
 				global_best = fBestValue;
 				best_time = clock();
 				//std::cout << global_best << (clock()-time_start) / CLOCKS_PER_SEC << "\n";
-				printf( "%d %Lf\n", global_best, (long double)(clock()-time_start) / CLOCKS_PER_SEC );
+				printf( "%llu %Lf\n", global_best, (long double)(clock()-time_start) / CLOCKS_PER_SEC );
 			} else if((clock() - best_time)/ CLOCKS_PER_SEC > 300){
-				printf( "%d %Lf\n", global_best, (long double)(clock()-time_start) / CLOCKS_PER_SEC );
+				printf( "%llu %Lf\n", global_best, (long double)(clock()-time_start) / CLOCKS_PER_SEC );
 				exit(0);
 			}
 		}
@@ -139,8 +142,8 @@ void TEnvironment::setAverageBest(){
 
 void TEnvironment::initPop(){
 	for ( int i = 0; i < Npop; ++i ){ 
-		tKopt->makeRandSol( tCurPop[ i ] );		// 设置一个随机路程
-		tKopt->doIt( tCurPop[ i ] );			// 局部搜索(2-opt neighborhood) 
+		tKopt->makeRandSol( tCurPop[ i ] );
+		tKopt->doIt( tCurPop[ i ] );
 	}
 }
 
@@ -150,8 +153,6 @@ void TEnvironment::selectForMating(){
 }
 
 void TEnvironment::generateKids( int s ){
-	// tCurPop[fIndexForMating[s]] 被替换为tCross->DoIt()中子代的一个最优解
-	// fEdgeFreq[][] 同时被更新
 	tCross->setParents( tCurPop[fIndexForMating[s]], tCurPop[fIndexForMating[s+1]], fFlagC, Nch );  
 	tCross->doIt( tCurPop[fIndexForMating[s]], tCurPop[fIndexForMating[s+1]], Nch, 1, fFlagC, fEdgeFreq );
 	fAccumurateNumCh += tCross->fNumOfGeneratedCh;

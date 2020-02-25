@@ -71,9 +71,9 @@ public:
 	long int fBestAccumeratedNumCh;		// 当前最优解的子代累计数目        
 	int **fEdgeFreq;					// 种群的边频率
 	double fAverageValue;				// 种群TSP路径的平均长度                  
-	int fBestValue;						// 种群最优解的路径长度                        
+	unsigned long long fBestValue;						// 种群最优解的路径长度                        
 	int fBestIndex;						// 最优种群的下标
-	int global_best=INT_MAX;
+	unsigned long long global_best=UINT_MAX;
 	clock_t time_start;
 	clock_t best_time;
 

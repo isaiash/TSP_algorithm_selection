@@ -23,7 +23,7 @@ public:
 
 	int fN;						// 城市数目
 	int** fLink;				// fLink[i][]表示路径中i的两个相邻的城市
-	int fEvaluationValue;		// TSP路径长度
+	unsigned long long fEvaluationValue;		// TSP路径长度
 };
 
 #endif
