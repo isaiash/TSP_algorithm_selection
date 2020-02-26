@@ -93,6 +93,7 @@ GainType LinKernighan()
         Cost = TSPTW_CurrentMakespanCost = TSPTW_MakespanCost();
     CurrentPenalty = PLUS_INFINITY;
     CurrentPenalty = Penalty ? Penalty() : 0;
+    StatusReport2(Cost, &Best_Cost, &prev_time,EntryTime, "");
     if (TraceLevel >= 3 ||
         (TraceLevel == 2 &&
          (CurrentPenalty < BetterPenalty ||
@@ -134,12 +135,15 @@ GainType LinKernighan()
 #ifdef HAVE_LONG_LONG
                     assert(Gain % Precision == 0);
 #else
+                    //printff("GAIN = " GainFormat", PRECISION = %d\n", Gain, Precision);
                     assert(fmod(Gain, Precision) == 0);
 #endif
                     Cost -= Gain / Precision;
                     CurrentPenalty -= PenaltyGain;
                     StoreTour();
                     TSPTW_CurrentMakespanCost = Cost;
+                    
+                    StatusReport2(Cost, &Best_Cost, &prev_time,EntryTime, "");
                     if (TraceLevel >= 3 ||
                         (TraceLevel == 2 &&
                          (CurrentPenalty < BetterPenalty ||
@@ -175,6 +179,7 @@ GainType LinKernighan()
             CurrentPenalty -= PenaltyGain;
             TSPTW_CurrentMakespanCost = Cost;
             StoreTour();
+            //StatusReport(Cost, EntryTime, "+ ");
             if (TraceLevel >= 3 ||
                 (TraceLevel == 2 &&
                  (CurrentPenalty < BetterPenalty ||

@@ -9,10 +9,10 @@
 int main(int argc, char *argv[])
 {
     GainType Cost, OldOptimum;
-    GainType best_value = PLUS_INFINITY;
     double Time, LastTime = GetTime();
     Node *N;
     int i;
+    Best_Cost = PLUS_INFINITY;
 
     /* Read the specification of the problem */
     if (argc >= 2)
@@ -23,8 +23,8 @@ int main(int argc, char *argv[])
         MergeWithTourGPX2;
     ReadProblem();
 
-    clock_t initial_time = clock();
-    clock_t prev_time = clock();
+    initial_time = clock();
+    prev_time = clock();
 
     if (SubproblemSize > 0) {
         if (DelaunayPartitioning)
@@ -52,6 +52,7 @@ int main(int argc, char *argv[])
         PDPTW_Reduce();
     CreateCandidateSet();
     InitializeStatistics();
+
     if (Norm != 0 || Penalty) {
         Norm = 9999;
         BestCost = PLUS_INFINITY;
@@ -73,7 +74,7 @@ int main(int argc, char *argv[])
 
     for (Run = 1; Run <= Runs; Run++) {
         LastTime = GetTime();
-        Cost = FindTour(&best_value, &initial_time, &prev_time);      /* using the Lin-Kernighan heuristic */
+        Cost = FindTour();      /* using the Lin-Kernighan heuristic */
         if (MaxPopulationSize > 1 && !TSPTW_Makespan) {
             /* Genetic algorithm */
             int i;
@@ -144,6 +145,7 @@ int main(int argc, char *argv[])
         }
         Time = fabs(GetTime() - LastTime);
         UpdateStatistics(Cost, Time);
+        StatusReport2(Cost, &Best_Cost, &prev_time, LastTime, "");
         if (TraceLevel >= 1 && Cost != PLUS_INFINITY) {
             printff("Run %d: ", Run);
             StatusReport(Cost, LastTime, "");
@@ -183,7 +185,6 @@ int main(int argc, char *argv[])
         }
         SRandom(++Seed);
     }
-    printff("Finish\n");
     PrintStatistics();
     if (Salesmen > 1) {
         if (Dimension == DimensionSaved) {

@@ -357,6 +357,10 @@ int Trial;      /* Ordinal number of the current trial */
 GainType TSPTW_CurrentMakespanCost;
 int TSPTW_Makespan;
 
+GainType Best_Cost;
+double initial_time;
+double prev_time;
+
 /* The following variables are read by the functions ReadParameters and 
    ReadProblem: */
 
@@ -473,7 +477,7 @@ void eprintf(const char *fmt, ...);
 int Excludable(Node * ta, Node * tb);
 void Exclude(Node * ta, Node * tb);
 int FixedOrCommonCandidates(Node * N);
-GainType FindTour(GainType * best_value,double * initial_time, double * prev_time);
+GainType FindTour(void);
 void Flip(Node * t1, Node * t2, Node * t3);
 void Flip_SL(Node * t1, Node * t2, Node * t3);
 void Flip_SSL(Node * t1, Node * t2, Node * t3);
@@ -588,6 +592,7 @@ void STTSP2TSP(void);
 void SOP_Report(GainType Cost);
 int SpecialMove(Node * t1, Node * t2, GainType * G0, GainType * Gain);
 void StatusReport(GainType Cost, double EntryTime, char * Suffix);
+void StatusReport2(GainType Cost, GainType * Best_Cost, double *prev_time,double EntryTime, char * Suffix);
 void StoreTour(void);
 void SRandom(unsigned seed);
 void SymmetrizeCandidateSet(void);

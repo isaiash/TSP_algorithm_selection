@@ -26,7 +26,6 @@ SolveSubproblem(int CurrentSubproblem, int Subproblems,
         InitialPeriod, MaxTrialsSaved = MaxTrials;
 
     BestCost = PLUS_INFINITY;
-    int best_value= PLUS_INFINITY;
     FirstNode = 0;
     N = FirstNodeSaved;
     do {
@@ -155,9 +154,7 @@ SolveSubproblem(int CurrentSubproblem, int Subproblems,
 
     for (Run = 1; Run <= Runs; Run++) {
         LastTime = GetTime();
-        printff("estoy en el subproblema\n");
-        double t0 = clock();
-        Cost = Norm != 0 ? FindTour(&best_value,&t0,&t0) : Optimum;
+        Cost = Norm != 0 ? FindTour() : Optimum;
         /* Merge with subproblem tour */
         Last = 0;
         N = FirstNode;

@@ -294,6 +294,7 @@ static void build_path(int n, int *path, int nb_clust)
 
     /* Assign each city of path to the closest of the sample */
     assignment = (int *) malloc((n + 1) * sizeof(int));
+    closest = 1;
     for (i = 1; i < n; i++) {
         dmin = INT_MAX;
         for (j = 1; j <= nb_clust; j++) {
@@ -301,10 +302,12 @@ static void build_path(int n, int *path, int nb_clust)
                 closest = j;
                 break;
             }
-            d = d(node[path[i]], node[sample[j]]);
-            if (d < dmin) {
-                dmin = d;
-                closest = j;
+            if (node[sample[j]]->DepotId == 0) {
+                d = d(node[path[i]], node[sample[j]]);
+                if (d < dmin) {
+                    dmin = d;
+                    closest = j;
+                }
             }
         }
         assignment[i] = closest;

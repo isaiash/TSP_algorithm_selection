@@ -4,7 +4,7 @@
 
 #define HAVE_LONG_LONG
 /* Undefine if you don't have the long long type */
-/* #undef HAVE_LONG_LONG */
+#undef HAVE_LONG_LONG 
 
 #include <float.h>
 #include <limits.h>

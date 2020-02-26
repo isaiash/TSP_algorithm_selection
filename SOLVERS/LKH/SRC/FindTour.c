@@ -18,7 +18,7 @@
 static void SwapCandidateSets();
 static GainType OrdinalTourCost;
 
-GainType FindTour(GainType * best_value, double * initial_time, double * prev_time)
+GainType FindTour()
 {
     GainType Cost;
     Node *t;
@@ -79,17 +79,8 @@ GainType FindTour(GainType * best_value, double * initial_time, double * prev_ti
             NodeSet[Dimension].Next = &NodeSet[1];
             Cost = MergeWithTour();
         }
-        if (((clock() - *prev_time)/(double)CLOCKS_PER_SEC) > 300){
-            printff(GainFormat" %.6f\n", *best_value, (clock() - *initial_time)/(double)CLOCKS_PER_SEC);
-            exit(0);
-        }
-        if (CurrentPenalty < BetterPenalty || (CurrentPenalty == BetterPenalty && Cost < BetterCost)) {
-            if (Cost < *best_value){
-                *best_value = Cost;
-                *prev_time = clock();
-                printff(GainFormat" %.6f\n", *best_value, (*prev_time - *initial_time)/(double)CLOCKS_PER_SEC);
-            }
-            
+        if (CurrentPenalty < BetterPenalty ||
+            (CurrentPenalty == BetterPenalty && Cost < BetterCost)) {
             if (TraceLevel >= 1) {
                 printff("* %d: ", Trial);
                 StatusReport(Cost, EntryTime, "");

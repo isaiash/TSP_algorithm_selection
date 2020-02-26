@@ -552,7 +552,6 @@ void ReadParameters()
     TraceLevel = 1;
     TSPTW_Makespan = 0;
 
-
     char * filename;
 	filename = ParameterFileName;
 
@@ -575,12 +574,17 @@ void ReadParameters()
 	fputs(ParameterFileName, fp);
 
 
+	fputs("\nMOVE_TYPE = 5", fp);
+	fputs("\nPATCHING_C = 3", fp);
+	fputs("\nPATCHING_A = 2", fp);
 	fputs("\nRUNS = 10000", fp);
-	fputs("\nINITIAL_TOUR_ALGORITHM = WALK", fp);
-	fputs("\nPOPMUSIC_TRIALS = 5", fp);
-	fputs("\nPOPMUSIC_INITIAL_TOUR = NO", fp);
-	fputs("\nTRACE_LEVEL = 0", fp);
 	fputs("\nCANDIDATE_SET_TYPE = POPMUSIC", fp);
+	fputs("\nPOPMUSIC_TRIALS = 5", fp);
+	fputs("\nGAIN23 = YES", fp);
+	fputs("\nGAIN_CRITERION = YES", fp);
+	fputs("\nPRECISION = 10", fp);
+	fputs("\nTRACE_LEVEL = 0", fp);
+
 
 	
 	fclose(fp);
@@ -607,6 +611,7 @@ void ReadParameters()
                 break;
         }
     }
+
     
     while ((Line = ReadLine(ParameterFile))) {
         if (!(Keyword = strtok(Line, Delimiters)))
@@ -1176,7 +1181,6 @@ void ReadParameters()
     fclose(ParameterFile);
     free(LastLine);
     LastLine = 0;
-    remove(str);
 }
 
 static char *GetFileName(char *Line)

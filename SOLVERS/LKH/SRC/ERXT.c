@@ -121,13 +121,10 @@ static Node *SelectNext(Node * N)
             i == 3 ? N->Prev : N->Next;
         if (!Next->V &&
             (i <= 2 || (Next != N->OldPred && Next != N->OldSuc))) {
-            if (Fixed(N, Next))
+            if (Fixed(N, Next) || IsCommonEdge(N, Next))
                 Score = INT_MAX;
-            else {
-                Score = IsCommonEdge(N, Next) ? 4 : 0;
-                Score -= EdgeCount(Next);
-                Score -= i <= 2 ? Tabu : -Tabu;
-            }
+            else
+                Score = -EdgeCount(Next) - (i <= 2 ? Tabu : -Tabu);
             if (Score >= MaxScore) {
                 if (Score > MaxScore)
                     Alternatives = 0;

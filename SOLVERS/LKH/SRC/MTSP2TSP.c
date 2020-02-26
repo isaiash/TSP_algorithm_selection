@@ -55,6 +55,9 @@ void MTSP2TSP()
                 *N = *Depot;
                 N->FixedTo1 = N->FixedTo2 = 0;
                 N->Id = i;
+                if (MergeTourFiles >= 1)
+                    assert(N->MergeSuc =
+                       (Node **) calloc(MergeTourFiles, sizeof(Node *)));
             }
             if (i == 1)
                 FirstNode = N;

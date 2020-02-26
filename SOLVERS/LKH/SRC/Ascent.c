@@ -43,10 +43,7 @@ GainType Ascent()
     }
 
     /* Compute the cost of a minimum 1-tree */
-    W = Minimum1TreeCost(CandidateSetType == DELAUNAY ||
-                         CandidateSetType == POPMUSIC ||
-                         MaxCandidates == 0);
-
+    W = Minimum1TreeCost(CandidateSetType == DELAUNAY || CandidateSetType == POPMUSIC || MaxCandidates == 0);
     /* Return this cost 
        if either
        (1) subgradient optimization is not wanted, or
@@ -94,9 +91,7 @@ GainType Ascent()
          Period > 0 && T > 0 && Norm != 0; Period /= 2, T /= 2) {
         /* Period and step size are halved at each iteration */
         if (TraceLevel >= 2)
-            printff
-                ("  T = %d, Period = %d, BestW = %0.1f, BestNorm = %d\n",
-                 T, Period, (double) BestW / Precision, BestNorm);
+            printff("  T = %d, Period = %d, BestW = " GainFormat ", BestNorm = %d\n", T, Period, BestW / Precision, BestNorm);
         for (P = 1; T && P <= Period && Norm != 0; P++) {
             /* Adjust the Pi-values */
             t = FirstNode;
@@ -142,11 +137,7 @@ GainType Ascent()
                     t->BestPi = t->Pi;
                 while ((t = t->Suc) != FirstNode);
                 if (TraceLevel >= 2)
-                    printff
-                        ("* T = %d, Period = %d, P = %d, "
-                         "BestW = %0.1f, BestNorm = %d\n",
-                         T, Period, P, (double) BestW / Precision,
-                         BestNorm);
+                    printff ("* T = %d, Period = %d, P = %d, BestW = %0.1f, BestNorm = %d\n", T, Period, P, (double) BestW / Precision, BestNorm);
                 /* If in the initial phase, the step size is doubled */
                 if (InitialPhase && T * sqrt((double) Norm) > 0)
                     T *= 2;
@@ -159,8 +150,7 @@ GainType Ascent()
             } else {
                 if (TraceLevel >= 3)
                     printff
-                        ("  T = %d, Period = %d, P = %d, W = %0.1f, Norm = %d\n",
-                         T, Period, P, (double) W / Precision, Norm);
+                        ("  T = %d, Period = %d, P = %d, W = %0.1f, Norm = %d\n", T, Period, P, (double) W / Precision, Norm);
                 if (InitialPhase && P > Period / 2) {
                     /* Conclude the initial phase */
                     InitialPhase = 0;

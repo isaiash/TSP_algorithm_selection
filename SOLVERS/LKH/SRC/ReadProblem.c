@@ -769,7 +769,8 @@ void ReadProblem()
         printff("done\n");
         PrintParameters();
     } else
-        //printff("PROBLEM_FILE = %s\n",ProblemFileName ? ProblemFileName : "");
+        printff("PROBLEM_FILE = %s\n",
+                ProblemFileName ? ProblemFileName : "");
     fclose(ProblemFile);
     if (InitialTourFileName)
         ReadTour(InitialTourFileName, &InitialTourFile);
