@@ -1,0 +1,24 @@
+# [Initialization Information]
+# Instance: TSP|Tnm100.tsp
+# Swarm Params: N=300 Nact=-1 Topology=FullConnect Solver=STD_PRB_3Opt_REAX+SEAX:isAlpha=true
+# Terminate Condition: T=100 Tcon=-1
+# Misc Params: DUP_TIMES=5 Tout=10
+# 
+# Topology: maosKernel.behavior.topology.FullConnectTopology|FullConnect
+# R_T(AbsStateUpdater): maosKernel.behavior.update.BetterStateUpdater|R_T
+# R_INI(AbsScratchSearch): maosKernel.behavior.scratch.LinkedScratchSearch|R_INI(scratchSearch=implement.TSP.behavior.construct.ReverseProbConstructor|R_SS(neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false))),incumbentSearch=implement.TSP.behavior.greedy.Basic3OPT|R_LS(bit_Ratio=0.0,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false))))
+# R_G(AbsMiniGenerator): maosKernel.behavior.generate.Switch2MGenerator|R_G(nScaleA=1.0,nScaleB=1.0,GeneratorA=maosKernel.behavior.generate.MiniSBILXGenerator|R_G1(statePicker=maosKernel.behavior.pick.RandStatePicker|RStatePicker,recombinationSearch=implement.TSP.behavior.combine.eax.RandEAXRecombinator|R_XS1(Cd=1.0,Nmtm=20,nABCycle=100,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false)),joinType=0)),GeneratorB=maosKernel.behavior.generate.MiniSBILXGenerator|R_G2(statePicker=maosKernel.behavior.pick.RandStatePicker|RStatePicker,recombinationSearch=implement.TSP.behavior.combine.eax.SortEAXRecombinator|R_XS2(Cd=1.0,Nmtm=10,nABCycle=100,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false)),joinType=0)))
+# 
+# [Runtime Information]
+# EvalV/Time@NCycle
+1398377/0.156791075 	1398072/0.241476118 	1398072/0.281166082 	1398072/0.306606751 	1398072/0.327966548 	1398072/0.350033073 	1398072/0.371835994 	1398072/0.389785651 	1398072/0.397888349 	1398072/0.4052994 	1398072/0.413259164 	| 	1398072/0.212049621@5
+1398492/0.066944386 	1398070/0.100237821 	1398070/0.115152248 	1398070/0.125898617 	1398070/0.134009506 	1398070/0.141847365 	1398070/0.1494052 	1398070/0.15771182 	1398070/0.167673732 	1398070/0.177715809 	1398070/0.187145959 	| 	1398070/0.084363674@4
+1398376/0.066887852 	1398376/0.088419415 	1398376/0.10043308 	1398376/0.108730282 	1398376/0.116246387 	1398376/0.124294211 	1398376/0.134077844 	1398376/0.140810505 	1398376/0.147327521 	1398376/0.154232162 	1398376/0.161225297 	| 	1398376/0.066887852@0
+1399243/0.066500662 	1398070/0.084703918 	1398070/0.096539075 	1398070/0.101142817 	1398070/0.106407287 	1398070/0.111570682 	1398070/0.117710401 	1398070/0.122847448 	1398070/0.12849273 	1398070/0.133463643 	1398070/0.13848921 	| 	1398070/0.076417419@5
+1398494/0.056164735 	1398070/0.073315846 	1398070/0.085630156 	1398070/0.091607397 	1398070/0.097036652 	1398070/0.102784092 	1398070/0.108419258 	1398070/0.11321037 	1398070/0.119380505 	1398070/0.124511303 	1398070/0.1296311 	| 	1398070/0.070362348@8
+# 
+# [Statistics Information]
+# @ 	minV 	maxV 	mean 	dev
+# EvalV 	1398070.0 	1398376.0 	1398131.6 	122.20245496715687
+# Time 	0.066887852 	0.212049621 	0.1020161828 	0.05533575729937272
+# NCycle 	0.0 	8.0 	4.4 	2.5768197453450252

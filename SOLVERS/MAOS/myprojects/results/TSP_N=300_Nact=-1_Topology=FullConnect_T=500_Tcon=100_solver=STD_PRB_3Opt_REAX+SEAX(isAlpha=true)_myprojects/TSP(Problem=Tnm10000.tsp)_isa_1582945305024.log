@@ -1,0 +1,14 @@
+# [Initialization Information]
+# Instance: TSP|Tnm10000.tsp
+# Swarm Params: N=300 Nact=-1 Topology=FullConnect Solver=STD_PRB_3Opt_REAX+SEAX:isAlpha=true
+# Terminate Condition: T=500 Tcon=100
+# Misc Params: DUP_TIMES=10000 Tout=10
+# 
+# Topology: maosKernel.behavior.topology.FullConnectTopology|FullConnect
+# R_T(AbsStateUpdater): maosKernel.behavior.update.BetterStateUpdater|R_T
+# R_INI(AbsScratchSearch): maosKernel.behavior.scratch.LinkedScratchSearch|R_INI(scratchSearch=implement.TSP.behavior.construct.ReverseProbConstructor|R_SS(neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false))),incumbentSearch=implement.TSP.behavior.greedy.Basic3OPT|R_LS(bit_Ratio=0.0,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false))))
+# R_G(AbsMiniGenerator): maosKernel.behavior.generate.Switch2MGenerator|R_G(nScaleA=1.0,nScaleB=1.0,GeneratorA=maosKernel.behavior.generate.MiniSBILXGenerator|R_G1(statePicker=maosKernel.behavior.pick.RandStatePicker|RStatePicker,recombinationSearch=implement.TSP.behavior.combine.eax.RandEAXRecombinator|R_XS1(Cd=1.0,Nmtm=20,nABCycle=100,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false)),joinType=0)),GeneratorB=maosKernel.behavior.generate.MiniSBILXGenerator|R_G2(statePicker=maosKernel.behavior.pick.RandStatePicker|RStatePicker,recombinationSearch=implement.TSP.behavior.combine.eax.SortEAXRecombinator|R_XS2(Cd=1.0,Nmtm=10,nABCycle=100,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false)),joinType=0)))
+# 
+# [Runtime Information]
+# EvalV/Time@NCycle
+188445346/79.962262933 	188441235/82.671139988 	188429612/85.377957226 	188428580/88.035819858 	188425218/90.89898064 	188425208/93.787023527 	188425200/96.726808705 	188425136/99.696825751 	188425113/102.660197618 	188420959/105.701240888 	188420952/109.118812068 	188420909/112.196697631 	188420900/115.416683367 	188420623/118.346535583 	188420618/121.021372973 	188420615/123.582197851 	188420612/126.111416664 	188420608/128.705857682 	188420603/131.325067412 	188419976/134.014138235 	188419973/136.952266057 	188419972/139.910472299 	188419970/143.061222388 	188419967/146.28113023 	188419965/149.468107179 	188419963/152.602077489 	188419962/155.721181893 	188419962/158.826165758 	188419959/162.02400241 	188419959/165.071927707 	188419959/168.09784704 	

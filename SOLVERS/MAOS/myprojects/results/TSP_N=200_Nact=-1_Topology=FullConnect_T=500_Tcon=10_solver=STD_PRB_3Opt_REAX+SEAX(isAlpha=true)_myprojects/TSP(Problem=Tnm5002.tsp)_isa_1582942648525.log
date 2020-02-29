@@ -1,0 +1,22 @@
+# [Initialization Information]
+# Instance: TSP|Tnm5002.tsp
+# Swarm Params: N=200 Nact=-1 Topology=FullConnect Solver=STD_PRB_3Opt_REAX+SEAX:isAlpha=true
+# Terminate Condition: T=500 Tcon=10
+# Misc Params: DUP_TIMES=100 Tout=10
+# 
+# Topology: maosKernel.behavior.topology.FullConnectTopology|FullConnect
+# R_T(AbsStateUpdater): maosKernel.behavior.update.BetterStateUpdater|R_T
+# R_INI(AbsScratchSearch): maosKernel.behavior.scratch.LinkedScratchSearch|R_INI(scratchSearch=implement.TSP.behavior.construct.ReverseProbConstructor|R_SS(neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false))),incumbentSearch=implement.TSP.behavior.greedy.Basic3OPT|R_LS(bit_Ratio=0.0,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false))))
+# R_G(AbsMiniGenerator): maosKernel.behavior.generate.Switch2MGenerator|R_G(nScaleA=1.0,nScaleB=1.0,GeneratorA=maosKernel.behavior.generate.MiniSBILXGenerator|R_G1(statePicker=maosKernel.behavior.pick.RandStatePicker|RStatePicker,recombinationSearch=implement.TSP.behavior.combine.eax.RandEAXRecombinator|R_XS1(Cd=1.0,Nmtm=20,nABCycle=100,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false)),joinType=0)),GeneratorB=maosKernel.behavior.generate.MiniSBILXGenerator|R_G2(statePicker=maosKernel.behavior.pick.RandStatePicker|RStatePicker,recombinationSearch=implement.TSP.behavior.combine.eax.SortEAXRecombinator|R_XS2(Cd=1.0,Nmtm=10,nABCycle=100,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false)),joinType=0)))
+# 
+# [Runtime Information]
+# EvalV/Time@NCycle
+93817120/17.167138405 	93795527/18.654774798 	93794997/20.049806181 	93794431/21.587170172 	| 	93794431/21.423597858@29
+93794431/39.238794567 	93794431/40.28602064 	93793688/41.44199115 	93793584/42.669547569 	93793581/43.931405998 	| 	93793581/42.9203633@32
+93793581/57.329786461 	93793581/58.438040023 	93793371/59.784690924 	| 	93793371/59.350822818@17
+93793371/81.664574204 	93793371/83.016447375 	93792577/85.23628036 	93791903/87.451604676 	93791900/88.881361131 	93791897/90.111642247 	93791896/91.286560295 	| 	93791896/90.465933066@53
+93791896/106.181241018 	93791896/107.424896799 	93791896/108.754863365 	93791896/110.176226336 	93791896/111.622554831 	| 	93791896/90.465933066@53
+93791896/131.838852252 	93791896/133.596377051 	93791817/135.69352675 	93791807/138.08028085 	93791803/140.446297751 	93791790/142.905912539 	93791459/145.235975727 	| 	93791459/143.834806205@54
+93791459/171.434747352 	93791459/173.130894421 	93788893/175.086934411 	| 	93788893/174.499019482@17
+93788893/202.299947883 	93788893/203.949002489 	93788893/205.79128252 	93788893/207.816099788 	| 	93788893/174.499019482@17
+93788893/235.010147703 	93788893/236.849306175 	93788893/238.929850274 	93788893/240.474253843 	93788893/241.922072929 	93788893/243.422882031 	93788893/244.883061776 	93788893/246.2785551 	93788893/247.679473857 	93788893/249.148857043 	| 	93788893/174.499019482@17

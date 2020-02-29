@@ -1,0 +1,18 @@
+# [Initialization Information]
+# Instance: TSP|Tnm1000.tsp
+# Swarm Params: N=300 Nact=-1 Topology=FullConnect Solver=STD_PRB_3Opt_REAX+SEAX:isAlpha=true
+# Terminate Condition: T=500 Tcon=100
+# Misc Params: DUP_TIMES=10000 Tout=10
+# 
+# Topology: maosKernel.behavior.topology.FullConnectTopology|FullConnect
+# R_T(AbsStateUpdater): maosKernel.behavior.update.BetterStateUpdater|R_T
+# R_INI(AbsScratchSearch): maosKernel.behavior.scratch.LinkedScratchSearch|R_INI(scratchSearch=implement.TSP.behavior.construct.ReverseProbConstructor|R_SS(neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false))),incumbentSearch=implement.TSP.behavior.greedy.Basic3OPT|R_LS(bit_Ratio=0.0,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false))))
+# R_G(AbsMiniGenerator): maosKernel.behavior.generate.Switch2MGenerator|R_G(nScaleA=1.0,nScaleB=1.0,GeneratorA=maosKernel.behavior.generate.MiniSBILXGenerator|R_G1(statePicker=maosKernel.behavior.pick.RandStatePicker|RStatePicker,recombinationSearch=implement.TSP.behavior.combine.eax.RandEAXRecombinator|R_XS1(Cd=1.0,Nmtm=20,nABCycle=100,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false)),joinType=0)),GeneratorB=maosKernel.behavior.generate.MiniSBILXGenerator|R_G2(statePicker=maosKernel.behavior.pick.RandStatePicker|RStatePicker,recombinationSearch=implement.TSP.behavior.combine.eax.SortEAXRecombinator|R_XS2(Cd=1.0,Nmtm=10,nABCycle=100,neighborEngine=implement.TSP.behavior.neighbor.NearNeighborManager|R_NN(Knni=20,Knnm=MAXI,costMatrix=implement.TSP.behavior.misc.CostMatrixHandler|R_COST(isAlpha=true,isPI=false)),joinType=0)))
+# 
+# [Runtime Information]
+# EvalV/Time@NCycle
+18158293/1.251567095 	18141733/1.556708871 	18141246/1.67874461 	18141102/1.775440175 	18141017/1.853094662 	18141017/1.91185047 	18141017/1.96973402 	18141017/2.019953505 	18141017/2.058898844 	18141017/2.099754218 	18141017/2.14098619 	18141017/2.178227594 	18141017/2.215135911 	18141017/2.247825716 	| 	18141017/1.803208273@33
+18141017/3.094132169 	18141017/3.176334983 	18141017/3.254863772 	18141017/3.325285215 	18141017/3.386443958 	18141017/3.445586585 	18141017/3.500853194 	18141017/3.554443412 	18141017/3.606598092 	18141017/3.657701732 	18141017/3.710151115 	18141017/3.766051001 	| 	18141017/1.803208273@33
+18141017/4.627040028 	18140634/4.725252602 	18140634/4.799356246 	18140634/4.853061127 	18140634/4.904180434 	18140634/4.95309656 	18140634/4.998629976 	18140634/5.046604871 	18140634/5.089901829 	18140634/5.130859784 	18140634/5.173037238 	| 	18140634/4.669423374@5
+18140634/6.108691406 	18140634/6.189822087 	18140634/6.260499574 	18140634/6.315192262 	18140634/6.362958983 	18140634/6.407978233 	18140634/6.451175382 	18140634/6.495626301 	18140634/6.53607124 	18140634/6.576547515 	18140634/6.618886621 	| 	18140634/4.669423374@5
+18140634/7.539777469 	18139959/7.621624027 	18139923/7.704888138 	18139923/7.766779508 	18139923/7.817210791 	18139923/7.86656876 	18139923/7.912852093 	18139923/7.954757993 	18139923/7.994801703 	18139923/8.035769213 	18139923/8.074888708 	18139923/8.1134074 	| 	18139923/7.665956589@15
