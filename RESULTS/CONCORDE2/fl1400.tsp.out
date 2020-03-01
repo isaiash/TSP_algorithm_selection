@@ -1,0 +1,8 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde example.tmp
+20127 1.838859
+Time for Total: 64.09 seconds (64.09 total in 1 calls)
+exact pricing could not prune the search
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+
+20127 1224.184427

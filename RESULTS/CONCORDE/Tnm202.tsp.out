@@ -1,0 +1,6 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/27965.tmp/sample.tsp
+3236103 0.000001
+Time for Total: 46.72 seconds (46.72 total in 1 calls)
+Dual LP Solver reached iteration limit
+Saved LP as iter.lp
+Saved LP as iter.bas

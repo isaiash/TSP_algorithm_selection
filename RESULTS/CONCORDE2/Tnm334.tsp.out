@@ -1,0 +1,13 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde example.tmp
+5642590 0.459475
+Time for Total: 419.74 seconds (419.74 total in 1 calls)
+5642397 1360.055517
+internal error: bad ratio test
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+LP is really infeasible (processs_cuts)
+LP is infeasible in cutting_loop
+Cut LP is reported to be infeasible
+phase 1 pricing
+Did not verify an infeasible LP

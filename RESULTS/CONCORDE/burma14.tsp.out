@@ -1,0 +1,5 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/25917.tmp/sample.tsp
+Geographical Norm (CC_GEOGRAPHIC)
+3323 0.000003
+Basic dual change required, but no candidate edges
+3323 0.006368

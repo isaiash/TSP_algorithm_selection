@@ -1,0 +1,11 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/31374.tmp/sample.tsp
+5760663 0.000002
+Time for Total: 547.17 seconds (547.17 total in 1 calls)
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+LP is really infeasible (processs_cuts)
+LP is infeasible in cutting_loop
+Cut LP is reported to be infeasible
+phase 1 pricing
+Did not verify an infeasible LP

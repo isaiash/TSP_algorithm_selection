@@ -1,0 +1,16 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/24421.tmp/sample.tsp
+Rounded Up Euclidean Norm (CC_EUCLIDEAN_CEIL)
+18741144 0.000007
+Time for Total: 10.00 seconds (10.00 total in 1 calls)
+18679764 10.905132
+18666656 15.121227
+18663633 20.826335
+18660777 36.261127
+18660188 74.422684
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+
+18660188 71.983175

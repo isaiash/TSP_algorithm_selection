@@ -1,0 +1,14 @@
+PROBLEM_FILE = /tmp/10406.tmp/sample.tsp
+1492 0.009787
+1473 0.009815
+1468 0.009819
+1411 0.009823
+1360 0.009826
+1329 0.009830
+1273 0.009833
+Successes/Runs = 0/10000 
+Cost.min = 1273, Cost.avg = 1273.00, Cost.max = 1273
+Gap.min = 0.0000%, Gap.avg = 0.0000%, Gap.max = 0.0000%
+Trials.min = 42, Trials.avg = 42.0, Trials.max = 42
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+

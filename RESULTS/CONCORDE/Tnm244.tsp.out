@@ -1,0 +1,11 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/11239.tmp/sample.tsp
+3980451 0.000002
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+LP is really infeasible (processs_cuts)
+LP is infeasible in cutting_loop
+CCtsp_cutting_loop reports an infeasible LP
+phase 1 pricing
+Did not verify an infeasible LP
+Couldn't verify infeasibile LP

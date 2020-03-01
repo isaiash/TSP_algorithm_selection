@@ -1,0 +1,10 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/20368.tmp/sample.tsp
+3205 0.000003
+Time for Total: 14.76 seconds (14.76 total in 1 calls)
+3200 15.631817
+3199 44.800218
+exact pricing could not prune the search
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+
+3199 393.311852

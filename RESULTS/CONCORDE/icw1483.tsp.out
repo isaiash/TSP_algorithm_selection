@@ -1,0 +1,13 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/1358.tmp/sample.tsp
+4436 0.000006
+Time for Total: 29.63 seconds (29.63 total in 1 calls)
+4427 35.088354
+4416 48.535300
+exact pricing could not prune the search
+exact pricing could not prune the search
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+
+4416 631.925423

@@ -1,0 +1,10 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/7960.tmp/sample.tsp
+1624173 0.000001
+Time for Total: 5.19 seconds (5.19 total in 1 calls)
+1623917 8.150418
+1623916 25.087620
+bad integerize error 0.001381
+from: 0.000000 0.000000 0.000000 -1.000000 -0.000000 -0.000460 -0.000460 0.000000 -1.000460
+to: 0 0 0 -1 0 0 0 0 -1
+
+1623916 862.517973

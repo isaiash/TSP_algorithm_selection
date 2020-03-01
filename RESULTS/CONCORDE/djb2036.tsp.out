@@ -1,0 +1,10 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/7304.tmp/sample.tsp
+6235 0.000007
+Time for Total: 106.52 seconds (106.52 total in 1 calls)
+6218 108.931077
+6208 152.551068
+6203 281.186397
+6202 448.162203
+6200 2701.235702
+exact pricing could not prune the search
+6198 3542.001763

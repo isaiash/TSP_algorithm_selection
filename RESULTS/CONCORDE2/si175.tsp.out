@@ -1,0 +1,8 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde example.tmp
+Explicit Lengths (CC_MATRIXNORM)
+21415 0.054452
+Time for Total: 0.78 seconds (0.78 total in 1 calls)
+21407 0.980867
+Do not cut, the lp is within 1.0 of the upperbound
+
+21407 0.982324

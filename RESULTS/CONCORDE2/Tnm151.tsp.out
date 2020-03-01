@@ -1,0 +1,15 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde example.tmp
+2293266 0.238065
+Time for Total: 15.13 seconds (15.13 total in 1 calls)
+No warmstart to add to probfile
+2293265 39.778380
+bad integerize error 0.002137
+from: 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000576 0.000000 0.000000 0.000781 0.000000 -0.000205 0.000000 -0.999424
+to: 0 0 -1 0 0 0 0 0 0 0 0 0 -1
+No warmstart to add to probfile
+bad integerize error 0.002351
+from: 0.000000 -0.000000 -1.000000 0.000000 -0.000000 -0.000000 0.000000 0.000784 0.000784 -0.999216
+to: 0 0 -1 0 0 0 0 0 0 -1
+bad integerize error 0.003335
+from: 0.000000 0.000000 0.000000 -0.000000 1.001670 0.000000 0.000000 0.000000 0.000000 0.000000 0.001670 0.000000 0.001670
+to: 0 0 0 0 1 0 0 0 0 0 0 0 0

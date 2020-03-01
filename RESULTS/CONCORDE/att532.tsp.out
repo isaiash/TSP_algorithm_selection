@@ -1,0 +1,7 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/27932.tmp/sample.tsp
+ATT Norm (CC_ATT)
+27693 0.000004
+Time for Total: 4.40 seconds (4.40 total in 1 calls)
+27686 5.844642
+
+27686 6.291522

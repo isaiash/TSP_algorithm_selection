@@ -1,0 +1,7 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/14161.tmp/sample.tsp
+5260 0.000005
+Time for Total: 44.06 seconds (44.06 total in 1 calls)
+5259 211.076710
+5258 776.091932
+5257 799.983153
+exact pricing could not prune the search
