@@ -1,0 +1,7 @@
+PROBLEM_FILE = /tmp/19813.tmp/sample.tsp
+Successes/Runs = 1/0 
+Cost.min = 5826298, Cost.avg = 5826298.00, Cost.max = 5826298
+Gap.min = 0.0000%, Gap.avg = 0.0000%, Gap.max = 0.0000%
+Trials.min = 0, Trials.avg = 0.0, Trials.max = 0
+Time.min = 0.03 sec., Time.avg = 0.03 sec., Time.max = 0.03 sec.
+

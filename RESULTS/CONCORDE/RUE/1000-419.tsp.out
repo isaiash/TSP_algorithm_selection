@@ -1,0 +1,11 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x example.tmp
+23273345 0.000004
+Time for Total: 11.35 seconds (11.35 total in 1 calls)
+23258514 12.182721
+23239150 16.535087
+23234951 50.414921
+23234679 110.847166
+23233590 114.717369
+Do not branch, the lp is within 1.0 of the upperbound
+
+23233590 186.402307

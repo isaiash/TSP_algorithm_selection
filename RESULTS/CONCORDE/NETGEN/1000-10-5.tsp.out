@@ -1,0 +1,12 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x example.tmp
+7272469 0.000004
+Time for Total: 3.15 seconds (3.15 total in 1 calls)
+7109922 3.486452
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+Branched-LP is infeasible
+phase 1 pricing
+Problem is shown to be infeasible
+
+7109922 5.442905

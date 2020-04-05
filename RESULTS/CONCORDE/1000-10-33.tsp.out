@@ -1,0 +1,13 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/958.tmp/sample.tsp
+7336573 0.000004
+Time for Total: 7.93 seconds (7.93 total in 1 calls)
+7336446 8.380970
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+Branched-LP is infeasible
+phase 1 pricing
+Problem is shown to be infeasible
+7336440 11.345805
+
+7336440 12.800843

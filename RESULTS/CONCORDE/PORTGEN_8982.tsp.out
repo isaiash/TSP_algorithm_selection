@@ -1,0 +1,11 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/20733.tmp/sample.tsp
+68421310 0.000027
+Time for Total: 304.99 seconds (304.99 total in 1 calls)
+68268124 312.405026
+68256772 545.118983
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+68249487 1803.497095
+68230730 3298.200687
