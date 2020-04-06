@@ -1,0 +1,9 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x example.tmp
+5103 0.000005
+Time for Total: 112.44 seconds (112.44 total in 1 calls)
+5102 156.365251
+5100 211.163350
+5096 275.287797
+5094 493.962669
+5087 648.306642
+exact pricing could not prune the search

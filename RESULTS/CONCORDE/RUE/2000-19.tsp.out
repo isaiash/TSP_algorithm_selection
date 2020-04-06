@@ -1,0 +1,20 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x example.tmp
+32455263 0.000007
+Time for Total: 21.77 seconds (21.77 total in 1 calls)
+32431328 22.904788
+32425883 29.912464
+32417433 47.706338
+32400929 119.637633
+32386880 168.084915
+32386695 426.842670
+32384294 445.112762
+32381827 535.256218
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+
+32381827 830.076423

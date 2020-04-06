@@ -1,2 +1,2 @@
-#ERROR: java.io.FileNotFoundException: No file found in given path (tasks/TSP/instance) and suffix (.tsp): example.tmp
+#ERROR: Global.exception.BasicFileFormatException: Error format: "No content"
 @The system has failed.

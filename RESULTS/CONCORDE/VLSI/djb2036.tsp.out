@@ -1,0 +1,59 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x example.tmp
+6230 0.000008
+Time for Total: 122.68 seconds (122.68 total in 1 calls)
+6221 148.556438
+6201 200.582118
+6200 959.264433
+6199 3917.599065
+6197 4687.335937
+exact pricing could not prune the search
+exact pricing could not prune the search
+exact pricing could not prune the search
+exact pricing could not prune the search
+exact pricing could not prune the search
+exact pricing could not prune the search
+exact pricing could not prune the search
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+exact pricing could not prune the search
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+
+6197 5991.678057
