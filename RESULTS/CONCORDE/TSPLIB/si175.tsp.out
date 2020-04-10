@@ -1,0 +1,6 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/19513.tmp/example.tmp
+Explicit Lengths (CC_MATRIXNORM)
+21407 0.000002
+Time for Total: 1.08 seconds (1.08 total in 1 calls)
+
+21407 1.260658

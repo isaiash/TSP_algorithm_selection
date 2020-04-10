@@ -1,0 +1,8 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/19360.tmp/example.tmp
+Geographical Norm (CC_GEOGRAPHIC)
+172058 0.000032
+Time for Total: 2.15 seconds (2.15 total in 1 calls)
+171416 2.397259
+171414 3.480201
+
+171414 8.787840

@@ -1,0 +1,10 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/19279.tmp/example.tmp
+51144 0.000005
+Time for Total: 106.92 seconds (106.92 total in 1 calls)
+50803 108.713517
+bad integerize error 0.002353
+from: 0.001178 0.000000 -0.000000 0.000000 -0.000000 -1.001178 0.000000 -1.000000
+to: 0 0 0 0 0 -1 0 -1
+50801 902.645433
+
+50801 1260.703557

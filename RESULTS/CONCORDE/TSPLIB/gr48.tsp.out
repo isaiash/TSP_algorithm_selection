@@ -1,0 +1,4 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/19363.tmp/example.tmp
+Explicit Lengths (CC_MATRIXNORM)
+5046 0.000002
+5046 0.041732

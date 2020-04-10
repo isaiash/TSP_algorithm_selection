@@ -1,0 +1,4 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/19429.tmp/example.tmp
+Rounded Up Euclidean Norm (CC_EUCLIDEAN_CEIL)
+67100823 0.000190
+Y[7187]Y[17851]Y[28931]Y[7187]Y[17836]Y[28926]Y[7187]Y[17853]Y[28936]Y[5040]Y[10488]Y[17967]Y[24671]Y[30574]Y[5040]Y[10488]Y[17967]Y[24671]Y[30575]Time for Total: 532.81 seconds (532.81 total in 1 calls)

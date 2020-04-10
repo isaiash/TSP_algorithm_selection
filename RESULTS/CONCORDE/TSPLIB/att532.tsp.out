@@ -1,0 +1,9 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/19246.tmp/example.tmp
+ATT Norm (CC_ATT)
+27712 0.000003
+Time for Total: 3.48 seconds (3.48 total in 1 calls)
+27706 3.809581
+27686 8.151010
+Do not branch, the lp is within 1.0 of the upperbound
+
+27686 8.495600

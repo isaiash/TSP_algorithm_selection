@@ -1,3 +1,3 @@
-/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x example.tmp
-20749 0.000001
-20749 0.073202
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/19393.tmp/example.tmp
+20749 0.000002
+20749 0.080113

@@ -1,0 +1,8 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/19306.tmp/example.tmp
+Rounded Up Euclidean Norm (CC_EUCLIDEAN_CEIL)
+18684771 0.000007
+Time for Total: 14.80 seconds (14.80 total in 1 calls)
+18660962 15.890244
+18660188 47.755749
+
+18660188 52.625932

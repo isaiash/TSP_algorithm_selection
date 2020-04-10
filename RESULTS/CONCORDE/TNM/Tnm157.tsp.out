@@ -1,0 +1,16 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/11462.tmp/example.tmp
+2407879 0.000002
+Time for Total: 25.49 seconds (25.49 total in 1 calls)
+2407201 26.822214
+2407153 55.164632
+No warmstart to add to probfile
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+bad integerize error 0.002063
+from: -0.000000 0.000000 -1.000000 0.000688 0.000000 0.000688 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000 -0.999312
+to: 0 0 -1 0 0 0 0 0 0 0 0 0 -1
+Dual LP Solver reached iteration limit
+Saved LP as iter.lp
+Saved LP as iter.bas

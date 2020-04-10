@@ -1,2 +1,3 @@
-/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x example.tmp
-16256099 0.000004
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/11807.tmp/example.tmp
+16257939 0.000004
+No warmstart to add to probfile

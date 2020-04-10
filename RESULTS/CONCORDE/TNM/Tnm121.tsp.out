@@ -1,0 +1,18 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/11426.tmp/example.tmp
+1755916 0.000001
+Time for Total: 8.73 seconds (8.73 total in 1 calls)
+1755750 9.400467
+1755691 15.434558
+1755689 18.470436
+Overflow in integerize_vector.  Calling integerize_vector2
+bad integerize error 13.882721
+from: -0.038383 -0.048015 0.040030 -0.028179 -0.000752 -0.087687 -0.007054 0.016614 -0.055283 -0.006982 -0.000000 0.067564 0.067815 0.108418 0.007054 0.035089 0.063339 0.034158 0.063339 0.031652 0.038634 0.056214 0.011279 0.026353 -0.000000 -0.031938 0.021197 -0.000931 -0.006051 0.130223
+to: -3611328 -4517529 3766292 -2651227 -70744 -8250134 -663649 1563112 -5201391 -656911 0 6356881 6380463 10200655 663649 3301401 5959366 3213813 5959366 2977998 3634910 5288979 1061165 2479419 0 -3004949 1994316 -87588 -569323 12252240
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+LP is really infeasible (processs_cuts)
+LP is infeasible in cutting_loop
+Cut LP is reported to be infeasible
+phase 1 pricing
+Did not verify an infeasible LP

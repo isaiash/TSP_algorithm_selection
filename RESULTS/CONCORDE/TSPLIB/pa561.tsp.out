@@ -1,0 +1,13 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/19417.tmp/example.tmp
+Explicit Lengths (CC_MATRIXNORM)
+2771 0.000003
+Time for Total: 4.20 seconds (4.20 total in 1 calls)
+2768 4.500684
+2765 7.101793
+2764 20.460475
+2763 31.075426
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+
+2763 29.922108

@@ -1,0 +1,14 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/11483.tmp/example.tmp
+2772868 0.000001
+Time for Total: 31.10 seconds (31.10 total in 1 calls)
+2772563 71.136768
+2771957 104.314284
+2771953 458.290495
+No warmstart to add to probfile
+Overflow in integerize_vector.  Calling integerize_vector2
+bad integerize error 251.510005
+from: 0.000000 0.000000 0.000000 0.000000 0.000139 -1.000139 0.000000 -1.000000
+to: 0 0 0 0 71 -510510 0 -510439
+Dual LP Solver reached iteration limit
+Saved LP as iter.lp
+Saved LP as iter.bas

@@ -1,6 +1,5 @@
-/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x example.tmp
-992505 0.000001
-Time for Total: 4.20 seconds (4.20 total in 1 calls)
-992501 4.480814
-
-992501 147.385915
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/11777.tmp/example.tmp
+992501 0.000001
+Time for Total: 2.21 seconds (2.21 total in 1 calls)
+---
+992501 159.249057

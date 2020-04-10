@@ -1,0 +1,7 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/11654.tmp/example.tmp
+5701920 0.000002
+Time for Total: 268.48 seconds (268.48 total in 1 calls)
+5701674 852.175492
+5701450 1398.075649
+5701420 1550.469369
+5701417 1732.545386

@@ -1,0 +1,7 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/11630.tmp/example.tmp
+5266283 0.000002
+Time for Total: 274.27 seconds (274.27 total in 1 calls)
+5265996 911.148677
+5265836 1457.695595
+5265747 1625.287967
+No warmstart to add to probfile

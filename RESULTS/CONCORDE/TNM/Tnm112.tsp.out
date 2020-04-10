@@ -1,0 +1,10 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/11417.tmp/example.tmp
+1623917 0.000001
+Time for Total: 9.15 seconds (9.15 total in 1 calls)
+1623916 38.841428
+bad integerize error 0.001138
+from: -1.000569 -0.000000 0.000000 0.000000 0.000144 0.000000 0.000000 0.000426 0.000000 -1.000000
+to: -1 0 0 0 0 0 0 0 0 -1
+Dual LP Solver reached iteration limit
+Saved LP as iter.lp
+Saved LP as iter.bas
