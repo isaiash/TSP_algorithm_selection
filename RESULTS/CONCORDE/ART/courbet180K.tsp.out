@@ -1,0 +1,5 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/3978.tmp/example.tmp
+7922686 0.000507
+Y[59041]Y[118369]Y[177805]Y[61059]Y[122378]During testing, do not exact price large problems
+Time for Total: 3235.66 seconds (3235.66 total in 1 calls)
+0 3267.818635

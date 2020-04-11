@@ -1,0 +1,33 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/29876.tmp/example.tmp
+26158 0.000006
+Time for Total: 59.90 seconds (59.90 total in 1 calls)
+26125 60.981903
+26059 64.475124
+26053 416.822306
+exact pricing could not prune the search
+26051 1895.476411
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+
+26051 2703.194815

@@ -1,0 +1,52 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/29867.tmp/example.tmp
+96446 0.000011
+Time for Total: 65.49 seconds (65.49 total in 1 calls)
+96334 66.671933
+96282 172.324446
+96221 426.609037
+96185 447.548105
+96154 805.574388
+96151 1112.140847
+96141 1319.120591
+96133 1841.099054
+exact pricing could not prune the search
+Do not branch, the lp is within 1.0 of the upperbound
+exact pricing could not prune search - need to branch
+96132 2043.792100
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+
+96132 2030.113154
