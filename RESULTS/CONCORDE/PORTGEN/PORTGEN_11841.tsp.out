@@ -1,0 +1,8 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/5619.tmp/sample.tsp
+78254831 0.000034
+Time for Total: 282.87 seconds (282.87 total in 1 calls)
+78210861 290.850794
+78181287 401.201503
+78122629 514.159020
+78108449 1818.153753
+78107364 3507.125012

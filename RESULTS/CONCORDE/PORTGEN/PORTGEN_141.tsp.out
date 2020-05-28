@@ -1,0 +1,3 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/14045.tmp/sample.tsp
+9255706 0.000001
+9255706 0.102947

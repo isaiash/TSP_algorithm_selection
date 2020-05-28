@@ -1,0 +1,8 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/13696.tmp/sample.tsp
+85682646 0.000041
+Time for Total: 574.02 seconds (574.02 total in 1 calls)
+85577704 585.868888
+85562134 665.379086
+85478134 773.417203
+85437999 1919.826216
+85415708 2623.275794

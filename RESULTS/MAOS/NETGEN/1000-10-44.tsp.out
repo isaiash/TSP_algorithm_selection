@@ -1,2 +1,2 @@
-#ERROR: java.io.FileNotFoundException: tasks/TSP/instance/example.tmp (No existe el archivo o el directorio)
+#ERROR: java.io.FileNotFoundException: No file found in given path (tasks/TSP/instance) and suffix (.tsp): example.tmp
 @The system has failed.

@@ -1,0 +1,5 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/2989.tmp/sample.tsp
+44941277 0.000048
+Time for Total: 566.40 seconds (566.40 total in 1 calls)
+44540012 581.733449
+44329075 804.596122

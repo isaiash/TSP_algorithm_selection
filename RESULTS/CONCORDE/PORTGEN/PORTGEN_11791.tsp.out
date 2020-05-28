@@ -1,0 +1,9 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/4247.tmp/sample.tsp
+78451025 0.000036
+Time for Total: 304.73 seconds (304.73 total in 1 calls)
+78250046 312.263777
+78246267 582.043330
+78228834 674.541059
+78228570 946.408372
+78224663 1478.071100
+78201840 3136.616338
