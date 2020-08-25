@@ -1,0 +1,3 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/10479.tmp/sample.tsp
+19926371 0.000086
+Y[16375]Y[27969]Y[16414]Y[27987]Y[16417]Y[27987]Y[16416]Y[27987]

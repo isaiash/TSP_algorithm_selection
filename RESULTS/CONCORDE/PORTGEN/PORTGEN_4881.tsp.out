@@ -1,0 +1,10 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/10156.tmp/sample.tsp
+50516688 0.000014
+Time for Total: 93.67 seconds (93.67 total in 1 calls)
+50453840 97.433654
+50429013 457.595012
+Overflow in integerize_vector.  Calling integerize_vector2
+bad integerize error 130.639722
+from: -0.000167 -0.500167 0.000000 0.500000 0.000000 -0.000167
+to: -817 -2450448 0 2449631 0 -817
+50428061 2325.456533

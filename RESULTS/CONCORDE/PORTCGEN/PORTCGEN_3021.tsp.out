@@ -1,0 +1,30 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/31966.tmp/sample.tsp
+19167152 0.000010
+Time for Total: 27.37 seconds (27.37 total in 1 calls)
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+19024281 33.210140
+19023767 48.167534
+19022276 53.986646
+19020526 77.888313
+19020093 90.677557
+19019141 215.844787
+19017540 268.571066
+19017444 718.742204
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+Do not cut, the lp is within 1.0 of the upperbound
+
+19017444 711.336134

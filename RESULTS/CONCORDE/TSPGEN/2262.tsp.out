@@ -1,0 +1,12 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/9980.tmp/sample.tsp
+7850085 0.000008
+Time for Total: 56.67 seconds (56.67 total in 1 calls)
+7828465 58.815152
+7827025 122.321505
+7823650 249.810801
+7818282 318.290808
+7817990 360.359584
+Do not branch, the lp is within 1.0 of the upperbound
+Do not branch, the lp is within 1.0 of the upperbound
+
+7817990 360.333753

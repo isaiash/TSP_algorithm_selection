@@ -1,0 +1,3 @@
+/home/shared/ihuerta/TSP_algorithm_selection/SOLVERS/CONCORDE/concorde -x /tmp/tsp/29943.tmp/sample.tsp
+5028455 0.000004
+5027367 4.028956
